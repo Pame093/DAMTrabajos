@@ -1,0 +1,42 @@
+1)	Que es un Sistemas de Control de Versiones
+Un sistema de control de versiones es un mecanismo que permite almacenar, modificar y llevar un historial del código. Esta información se guarda en el repositorio.
+2)	Que es un Sistemas de Control de Versiones Locales
+Un método de control de versiones, usado por muchas personas, es copiar los archivos a otro directorio (quizás indicando la fecha y hora en que lo hicieron, si son ingeniosos). Este método es muy común porque es muy sencillo, pero también es tremendamente propenso a errores. Es fácil olvidar en qué directorio te encuentras y guardar accidentalmente en el archivo equivocado o sobrescribir archivos que no querías.
+3)	Que es un Sistemas de Control de Versiones Centralizados (CVCS)
+En lugar de tener un repositorio donde guarda su información, tiene un servidor que almacenara el repositorio y múltiples computadoras podrán acceder a este servidor obteniendo versiones diferentes del código almacenado en el repositorio.
+
+4)	Que es un Sistemas de Control de Versiones Distribuidos (DVCS)
+Son los sistemas mas utilizados hoy en día.
+Este sistema tiene un servidor que almacena un repositorio con su código, pero cada computador conectador a este servidor obtendrá una copia del repositorio. La ventaja es que si se llega a eliminar el repositorio cada computadora tiene una copia y puede restablecer la información.
+
+5)	Describa el proceso para crear una cuenta y repositorio en GitHub
+Pasos para crear una cuenta en GitHub
+Paso 1: Ir al buscador y escribir GitHub.
+Paso 2: Ingresar a la pagina de GitHub y buscar la opción Sing up.
+Paso 3: Ingresar el email y su password para poder registrarse.
+Paso 4: Al final aparecerá una página de bienvenida.
+
+Pasos para crear un repositorio en GitHub
+Paso 1: Damos clic al botón que dice create a new repository
+Paso 2: Pide el nombre de la cuenta y poner el nombre que le queremos poner al repositorio.
+Paso 3: Elegir si quiere que su repositorio sea público o privado.
+Paso 4: Por último, dar clic en el botón create repository.
+
+6)	Cuáles son los comandos para Inicializar el cliente de Git
+git config  --global user.name (Nombre del usuario)
+git config –global user.email (Correo electrónico)
+
+7)	Describa el procedimiento con los comandos necesarios para:
+Caso 1: Inicializar un repositorio
+Paso 1: Utilizar el comando git init para inicializar el repositorio se tiene que ejecutar
+Paso 2: Ejecutar el comando git remote add y pasar un Alias(origin) y la URL de nuestro repositorio.
+Paso 3: touch .gitignore nos ayudara a ignorar archivos que no queremos que esten bajo el control de git.
+
+Caso 2: Tomar código de un repositorio que ya existe
+Paso 1: Introducir el comando git clone seguido de la url del repositorio
+
+Caso 3: Actualizar el repositorio local
+Paso 1:para poder actualizar se utiliza el comando git pull alias(origin) nombre-rama(master)
+
+
+
